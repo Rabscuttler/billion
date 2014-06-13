@@ -1,0 +1,43 @@
+html {
+background: url(../img/white_wall.png);	
+}
+
+body {
+	background:none;
+}
+
+h1 {
+	font-size: 4.75rem;
+}
+
+#container {	
+	background:white;
+	max-width:600px;
+	min-height:250px;
+}
+
+.item {
+	min-width:100px;
+	min-height:100px;
+	border:1px solid black;
+}
+
+#a {
+	width:250px;
+	height:200px;
+}
+
+#b {
+	width:150px;
+	height:100px;
+}
+
+#c {
+	width:234px;
+	height:234px;
+}
+
+#g {
+	width:179px;
+	height:179px;
+}
