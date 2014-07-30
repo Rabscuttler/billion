@@ -1,13 +1,16 @@
 html {
-background: url(../img/white_wall.png);	
 }
 
 body {
-	background:none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 960px;
 }
 
 h1 {
 	font-size: 4.75rem;
+	font-family: 'Permanent Marker', cursive;
 }
 
 .main_panel {
@@ -33,4 +36,48 @@ min-height:800px;
 svg {
 	position:absolute;
 	z-index:10;
+}
+
+#page {
+}
+
+form {
+  position: absolute;
+  right: 10px;
+  top: 200px;
+}
+
+.node {
+ border: solid 1px white;
+  font: 10px sans-serif;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+}
+
+#container {
+margin-left: auto;
+margin-right: auto;
+width: 720px;
+}
+
+#list {
+	position:relative;
+    float: left;
+    width: 100px;
+}
+
+.tooltip {
+	width:200px;
+	height:200px;
+	border: 5px solid red;
+}
+
+#Companies {
+z-index: -1;
+}
+
+#PowerSector {
+z-index: -1;
 }

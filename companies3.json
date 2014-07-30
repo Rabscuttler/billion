@@ -1,0 +1,448 @@
+{
+    "name": "Companies",
+    "children": [
+        {
+            "name": "PowerSector",
+            "children": [
+                {
+                    "name": "RWE Group",
+                    "size": 148702965,
+                    "logo": "img/RWE.png"
+                },
+                {
+                    "name": "Vattenfall",
+                    "size": 83766481,
+                    "logo": "img/Vattenfall.png"
+                },
+                {
+                    "name": "E.On Group",
+                    "size": 74634285,
+                    "logo": "img/E.ON.png"
+                },
+                {
+                    "name": "ENEL Group",
+                    "size": 65834603,
+                    "logo": "img/ENEL.png"
+                },
+                {
+                    "name": "Polish Energy Group",
+                    "size": 61079522
+                },
+                {
+                    "name": "EDF",
+                    "size": 52927490,
+                    "logo": "img/EDF.png"
+                },
+                {
+                    "name": "Public Power Corporation (PPC)",
+                    "size": 41285844
+                },
+                {
+                    "name": "GDF Suez",
+                    "size": 39421543
+                },
+                {
+                    "name": "CEZ Group",
+                    "size": 29963770,
+                    "logo": "img/CEZ.png"
+                },
+                {
+                    "name": "Other",
+                    "size": 28981312
+                },
+                {
+                    "name": "STEAG",
+                    "size": 23018035
+                },
+                {
+                    "name": "TAURON Polska Energia S.A.",
+                    "size": 21494803
+                },
+                {
+                    "name": "Drax Group",
+                    "size": 20319513
+                },
+                {
+                    "name": "SSE",
+                    "size": 19848215
+                },
+                {
+                    "name": "Iberdrola Group",
+                    "size": 16214407
+                },
+                {
+                    "name": "EDP Energias de Portugal",
+                    "size": 15444137
+                },
+                {
+                    "name": "EnBW",
+                    "size": 13455813
+                },
+                {
+                    "name": "ZE PAK Group",
+                    "size": 13128896
+                },
+                {
+                    "name": "Eesti Energia",
+                    "size": 12954078
+                },
+                {
+                    "name": "Strategic Value Partners",
+                    "size": 11495905
+                },
+                {
+                    "name": "Bulgarian Energy Holding EAD",
+                    "size": 11489799
+                },
+                {
+                    "name": "Gas Natural",
+                    "size": 11060793
+                },
+                {
+                    "name": "ENEA Group",
+                    "size": 10462799
+                },
+                {
+                    "name": "CE Oltenia",
+                    "size": 10113688
+                },
+                {
+                    "name": "ESB Group",
+                    "size": 9383960
+                },
+                {
+                    "name": "ENI",
+                    "size": 9241832
+                },
+                {
+                    "name": "DONG Energy",
+                    "size": 9129012
+                },
+                {
+                    "name": "S.C. Termoelectrica S.A.",
+                    "size": 5977212
+                },
+                {
+                    "name": "Gruppo Riva",
+                    "size": 5663609
+                },
+                {
+                    "name": "Fortum",
+                    "size": 5256922
+                },
+                {
+                    "name": "swb",
+                    "size": 5167845
+                },
+                {
+                    "name": "AES Corporation",
+                    "size": 4868119
+                },
+                {
+                    "name": "Tirreno Power",
+                    "size": 4783428
+                },
+                {
+                    "name": "ERG Group",
+                    "size": 4727809
+                },
+                {
+                    "name": "HSE Group",
+                    "size": 4362082
+                },
+                {
+                    "name": "Trianel",
+                    "size": 4143941
+                },
+                {
+                    "name": "Volkswagen",
+                    "size": 4138956
+                },
+                {
+                    "name": "ContourGlobal",
+                    "size": 3631715
+                },
+                {
+                    "name": "Veolia",
+                    "size": 3345317
+                },
+                {
+                    "name": "Stadtwerke Hannover",
+                    "size": 3259528
+                },
+                {
+                    "name": "Orlen Group",
+                    "size": 2953758
+                },
+                {
+                    "name": "A2A",
+                    "size": 2953343
+                },
+                {
+                    "name": "Electricity Authority of Cyprus (EAC)",
+                    "size": 2829732
+                },
+                {
+                    "name": "Energa Group",
+                    "size": 2823847
+                },
+                {
+                    "name": "Stadtwerke München (SWM)",
+                    "size": 2794627
+                },
+                {
+                    "name": "Iren SpA",
+                    "size": 2723171
+                },
+                {
+                    "name": "Centrica",
+                    "size": 2543946
+                },
+                {
+                    "name": "Verbund",
+                    "size": 2518428
+                },
+                {
+                    "name": "Mark-E & Statkraft",
+                    "size": 2416491
+                },
+                {
+                    "name": "Delmi",
+                    "size": 2255839
+                },
+                {
+                    "name": "ENERGETICKÝ A PRŮMYSLOVÝ HOLDING",
+                    "size": 2218701
+                },
+                {
+                    "name": "VITOL",
+                    "size": 2199240
+                },
+                {
+                    "name": "EPZ",
+                    "size": 2177074
+                },
+                {
+                    "name": "Sorgenia Group",
+                    "size": 2160062
+                },
+                {
+                    "name": "InterGen",
+                    "size": 2155256
+                },
+                {
+                    "name": "Alpiq",
+                    "size": 1987763
+                },
+                {
+                    "name": "Třinecké železárny – Moravia Steel Group",
+                    "size": 1818359
+                },
+                {
+                    "name": "E.On & Stadtwerke Kiel",
+                    "size": 1749593
+                },
+                {
+                    "name": "enemalta",
+                    "size": 1697304
+                },
+                {
+                    "name": "EP ENERGY Group",
+                    "size": 1640229
+                },
+                {
+                    "name": "Saarstahl",
+                    "size": 1544352
+                },
+                {
+                    "name": "Wien Energie Group",
+                    "size": 1493361
+                },
+                {
+                    "name": "Bord na MÃ³na",
+                    "size": 1483794
+                },
+                {
+                    "name": "Grupa Azoty",
+                    "size": 1462175
+                },
+                {
+                    "name": "Stadtwerke Köln Gruppe (SWK)",
+                    "size": 1375740
+                },
+                {
+                    "name": "SEF",
+                    "size": 1331256
+                },
+                {
+                    "name": "Air Liquide",
+                    "size": 1329339
+                },
+                {
+                    "name": "HOFOR Group",
+                    "size": 1232563
+                },
+                {
+                    "name": "MVM Group",
+                    "size": 1223655
+                },
+                {
+                    "name": "BP",
+                    "size": 1159517
+                },
+                {
+                    "name": "eins energie in sachsen",
+                    "size": 1159054
+                },
+                {
+                    "name": "Delta & EDF",
+                    "size": 1119570
+                },
+                {
+                    "name": "Kraftwerke Mainz-Wiesbaden",
+                    "size": 1107816
+                },
+                {
+                    "name": "United Energy",
+                    "size": 1103040
+                },
+                {
+                    "name": "Govora",
+                    "size": 1081365
+                },
+                {
+                    "name": "AXPO Holding",
+                    "size": 1056346
+                },
+                {
+                    "name": "EVN AG",
+                    "size": 1051335
+                },
+                {
+                    "name": "OMV Group",
+                    "size": 1021941
+                },
+                {
+                    "name": "Elettra Produzione",
+                    "size": 994424
+                },
+                {
+                    "name": "BASF & Electrabel",
+                    "size": 816161
+                },
+                {
+                    "name": "Cheung Kong Infrastructure Holdings & SSE",
+                    "size": 724808
+                },
+                {
+                    "name": "Vantaan Energia",
+                    "size": 708378
+                },
+                {
+                    "name": "Wacker Chemie",
+                    "size": 670599
+                },
+                {
+                    "name": "Viridian Group",
+                    "size": 650399
+                },
+                {
+                    "name": "DOW",
+                    "size": 619953
+                },
+                {
+                    "name": "Oulun Energia",
+                    "size": 609910
+                },
+                {
+                    "name": "Tampere Power Utility",
+                    "size": 597196
+                },
+                {
+                    "name": "Statoil",
+                    "size": 582362
+                },
+                {
+                    "name": "Lahti Energia",
+                    "size": 562277
+                },
+                {
+                    "name": "Ineos Group",
+                    "size": 538552
+                },
+                {
+                    "name": "ExxonMobil",
+                    "size": 534280
+                },
+                {
+                    "name": "MPF Holdings",
+                    "size": 470283
+                },
+                {
+                    "name": "General Electric",
+                    "size": 456925
+                },
+                {
+                    "name": "Solvay Group",
+                    "size": 328027
+                },
+                {
+                    "name": "BASF",
+                    "size": 324230
+                },
+                {
+                    "name": "Grupa Lotos",
+                    "size": 322860
+                },
+                {
+                    "name": "Daimler",
+                    "size": 315042
+                },
+                {
+                    "name": "Sappi",
+                    "size": 248872
+                },
+                {
+                    "name": "PC Holding",
+                    "size": 222760
+                },
+                {
+                    "name": "Statkraft",
+                    "size": 201110
+                },
+                {
+                    "name": "Energias de Portugal",
+                    "size": 178004
+                },
+                {
+                    "name": "EDF & Siram",
+                    "size": 172217
+                },
+                {
+                    "name": "Repsol S.A.",
+                    "size": 168794
+                },
+                {
+                    "name": "Energie SaarLorLux",
+                    "size": 166640
+                },
+                {
+                    "name": "SC Termica SA",
+                    "size": 166049
+                },
+                {
+                    "name": "Petroleos (Cepsa)",
+                    "size": 164239
+                },
+                {
+                    "name": "Kokkola Goup",
+                    "size": 156318
+                },
+                {
+                    "name": "DSM Group",
+                    "size": 133274
+                }
+            ]
+        }
+    ]
+}
