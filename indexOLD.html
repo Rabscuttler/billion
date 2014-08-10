@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" href="css/foundation.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div id="page">
+	<form>
+	  <label><input type="radio" name="mode" value="size" checked> Size</label>
+	  <label><input type="radio" name="mode" value="count"> Count</label>
+	</form>
+
+	<div>
+		<h1>One Billion Tonnes Out!</h1>
+		<p>Dear MEP, my company wants you to vote to permanently remove <i>One Billion Tonnes</i> out of the Emission Trading Scheme and <strong>make EU climate policy work!</strong></p>
+		<p>Supported so far by … companies responsible for {{percentage}} of EU’s power emissions</p>
+	</div>
+
+	<div class="row">
+		  <div class="one columns centered">
+			    <div class="container"></div>
+		  </div>
+	</div>
+		  
+</div>
+
+</div>
+</body>
+
+<script src="js/d3.v3.js"></script>
+<script>
+
+var margin = {top: 50, right: 10, bottom: 10, left: 0},
+    width = 700
+    height = 700
+
+var color = d3.scale.category20c();
+
+var div = d3.select("#container").append("div")
+    .style("position", "relative")
+    .style("width", (width + margin.left + margin.right) + "px")
+    .style("height", (height + margin.top + margin.bottom) + "px")
+    .style("left", margin.left + "px")
+    .style("top", margin.top + "px")
+    .style("float", "left");
+
+d3.json("companies3.json", function(error, root) {
+
+  var treemap = d3.layout.treemap()
+    .size([width, height])
+    .sticky(true)
+    .value(function(d) { return d.size; });
+
+  var node = div.datum(root).selectAll(".node")
+      .data(treemap.nodes)
+    .enter().append("div")
+      .attr("class", "node")
+      .attr("id", function(d) { return d.name;})
+      .call(position)
+      .attr("style", function(d) { return "background:url(" + d.logo + ");background-size:contain;-moz-background-size:contain;background-repeat:no-repeat;background-position:center;border:1px solid grey";});
+      // .text(function(d) { return d.children ? null : d.name; });
+	  // d3.select("#list").append("ul").text(function(d) { return d.children ? null : d.name;  });
+
+     var tooltip = d3.select(".node")
+    .append("div")
+	    .style("position", "relative")
+	    .style("z-index", "99")
+	    .style("visibility", "hidden")
+	    .text("a simple tooltip");   
+
+   d3.select("#Companies").classed("node", false);
+   d3.select("#PowerSector").classed("node", false);
+
+  d3.select(".node").on("mouseover", function(){return tooltip.style("visibility", "visible");})
+  d3.select(".node").on("mousemove", function(){return tooltip.style("top",(d3.event.pageY - 300)+"px").style("left",(d3.event.pageX - 600)+"px");})
+  d3.select(".node").on("mouseout", function(){return tooltip.style("visibility", "hidden");})
+
+
+  d3.selectAll("input").on("change", function change() {
+    var value = this.value === "count"
+        ? function() { return 1; }
+        : function(d) { return d.size; };
+
+    node
+        .data(treemap.value(value).nodes)
+      .transition()
+        .duration(1500)
+        .call(position); 
+  });
+});
+
+function position() {
+  this.style("left", function(d) { return d.x + "px"; })
+      .style("top", function(d) { return d.y + "px"; })
+      .style("width", function(d) { return Math.max(0, d.dx - 1) + "px"; })
+      .style("height", function(d) { return Math.max(0, d.dy - 1) + "px"; });
+}
+
+</script>
