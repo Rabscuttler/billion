@@ -15,6 +15,26 @@ h1 {
 	padding-top:5%;
 }
 
+#myMenu {
+	position:fixed;
+	z-index:99;
+	list-style:none;
+}
+
+#myMenu li {
+	float:left;
+	display: inline-block;
+	margin: 10px;
+	color: #000;
+	background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+}
+
+#myMenu li a {
+	padding: 9px 18px;
+	display: block;
+}
+
 @media only screen and (max-width: 600px) {
 
    h1 { font-size: 2rem; }
