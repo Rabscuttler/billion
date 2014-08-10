@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<link rel="stylesheet" href="css/foundation.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/jquery.easings.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+</head>
+
+<body>
+	
+<div id="fullpage">
+    <div class="section">
+	    <h1 class ="text-center">Let's stop a billion tonnes </br> of pollution</h1>
+    </div>
+
+	<div class="section">
+		<h1 class ="text-center">What's this all about?</h1>
+	    <div class="slide"> 
+			<h2 class ="text-center">In the past,</h2>
+			<p class ="text-center">there was no limit to CO2 pollution...</p>
+			<div class="row">
+				  <div class="small-6 large-centered columns">
+						<img src="img/slides/slide1.png">
+				  </div>
+			</div>
+	    </div>
+	    <div class="slide"> 
+		    <h2 class ="text-center">...now</h2>
+		    <p class ="text-center">in Europe big polluters need permits.</p>
+		    <div class="row">
+				  <div class="small-6 large-centered columns">
+					    <img src="img/slides/slide2.png">
+				  </div>
+			</div>
+	    </div>
+	    <div class="slide"> 
+		    <h2 class ="text-center">Permits</h2>
+			<p class ="text-center">are issued by the EU, setting a cap on pollution...</p>
+			<div class="row">
+				  <div class="small-6 large-centered columns">
+						<img src="img/slides/slide3.png">
+				  </div>
+			</div>
+	    </div>
+	    <div class="slide"> 
+		    <h2 class ="text-center">...but too many</h2>
+			<p class ="text-center">are being issued, giving little incentive to reduce pollution.</p>
+			<div class="row">
+				  <div class="small-6 large-centered columns">
+						<img src="img/slides/slide4.png">
+				  </div>
+			</div>
+	    </div>
+	    <div class="slide"> 
+		    <h2 class ="text-center">Destroy</h2>
+			<p class ="text-center">one billion permits with Sandbag and take them out of the system...</p>
+			<div class="row">
+				  <div class="small-6 large-centered columns">
+						<img src="img/slides/slide5.png">
+				  </div>
+			</div>
+	    </div>
+	    <div class="slide">
+		    <h2 class ="text-center">...and call</h2> 
+			<p class ="text-center">on EU politicians to not issue so many.</p>
+			<div class="row">
+				  <div class="small-6 large-centered columns">
+						<img src="img/slides/slide6.png">
+				  </div>
+			</div>
+	    </div>
+	    <div class="slide"> 
+		    <h2 class ="text-center">Fewer permits</h2>
+			<p class ="text-center">means less pollution and more clean energy</p>
+			<div class="row">
+				  <div class="small-6 large-centered columns">
+						<img src="img/slides/slide7.png">
+				  </div>
+			</div>
+	    </div>
+	    <div class="slide"> 
+		    <h2 class ="text-center">Join us</h2>
+			<p class ="text-center">and help stop one billion tonnes of pollution!</p>
+			<div class="row">
+				  <div class="small-6 large-centered columns">
+						<img src="img/slides/slide8.png">
+				  </div>
+			</div>
+	    </div>
+	</div>
+
+    <div class="section">
+	    <h1 class ="text-center">Companies</h1>
+    </div>
+
+    <div class="section">
+	    <h1 class ="text-center">What you can do</h1>
+    </div>
+</div>
+
+</body>
+
+<script>
+	$(document).ready(function() {
+	    $('#fullpage').fullpage({
+	    	verticalCentered: true,
+	        resize : true,
+	        sectionsColor : ['#ccc', '#fff'],
+	        anchors:['landing', 'what'],
+	        scrollingSpeed: 700,
+	        easing: 'easeInQuart',
+	        menu: true,
+	        navigation: false,
+	        navigationPosition: 'right',
+	        navigationTooltips: ['firstSlide', 'secondSlide'],
+	        slidesNavigation: true,
+	        slidesNavPosition: 'bottom',
+	        loopBottom: false,
+	        loopTop: false,
+	        loopHorizontal: true,
+	        autoScrolling: true,
+	        scrollOverflow: false,
+	        css3: false,
+	        paddingTop: '3em',
+	        paddingBottom: '10px',
+	        normalScrollElements: '#element1, .element2',
+	        normalScrollElementTouchThreshold: 5,
+	        keyboardScrolling: true,
+	        touchSensitivity: 15,
+	        continuousVertical: false,
+	        animateAnchor: true,
+	        sectionSelector: '.section',
+	        slideSelector: '.slide',
+	    });
+	});
+</script>

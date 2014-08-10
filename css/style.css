@@ -3,81 +3,16 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: auto;
-  position: relative;
-  width: 960px;
 }
 
 h1 {
-	font-size: 4.75rem;
+	font-size: 4.5rem;
 	font-family: 'Permanent Marker', cursive;
 }
 
-.main_panel {
-border-style: none;
-margin-bottom: 1.25rem;
-padding: 0rem;
-background: #FFFFFF;
-width: 800px;
-min-width:400px;
-height:800px;
-min-height:800px;
-}
 
-.item {
-	border: 2px solid black;
-	margin:1px;
-	float:left;
-	display:block;
-	background-color:#333;
-	position:relative;
-}
+@media only screen and (max-width: 600px) {
 
-svg {
-	position:absolute;
-	z-index:10;
-}
+   h1 { font-size: 2rem; }
 
-#page {
-}
-
-form {
-  position: absolute;
-  right: 10px;
-  top: 200px;
-}
-
-.node {
- border: solid 1px white;
-  font: 10px sans-serif;
-  line-height: 12px;
-  overflow: hidden;
-  position: absolute;
-  text-indent: 2px;
-}
-
-#container {
-margin-left: auto;
-margin-right: auto;
-width: 720px;
-}
-
-#list {
-	position:relative;
-    float: left;
-    width: 100px;
-}
-
-.tooltip {
-	width:200px;
-	height:200px;
-	border: 5px solid red;
-}
-
-#Companies {
-z-index: -1;
-}
-
-#PowerSector {
-z-index: -1;
 }
