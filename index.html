@@ -13,10 +13,10 @@
 <body>
 
 <ul id="myMenu">
-    <li data-menuanchor="firstPage" class="active"><a href="#landing">What?</a></li>
-    <li data-menuanchor="secondPage"><a href="#what">Why?</a></li>
+    <li data-menuanchor="firstPage" class="active"><a href="#landing">Landing</a></li>
+    <li data-menuanchor="secondPage"><a href="#what">What</a></li>
     <li data-menuanchor="thirdPage"><a href="#companies">Companies</a></li>
-    <li data-menuanchor="fourthPage"><a href="#action">Join us!</a></li>
+    <li data-menuanchor="fourthPage"><a href="#action">Action</a></li>
 </ul>
 	
 <div id="fullpage">
@@ -102,9 +102,9 @@
 
     <div class="section">
 	    <h1 class ="text-center">Companies</h1>
-	    <div class="slide"> 
+	    <!-- <div class="slide"> 
 		    <div class ="small-6 small-centered columns" id="companies"></div>
-	    </div>
+	    </div> -->
     </div>
 
     <div class="section">
@@ -114,7 +114,7 @@
 
 </body>
 
-<script src="js/d3.v3.js"></script>
+<!-- <script src="js/d3.v3.js"></script>
 <script>
 
 var diameter = 700,
@@ -168,7 +168,7 @@ function classes(root) {
 d3.select(self.frameElement).style("height", diameter + "px");
 
 </script>
-
+ -->
 <script>
 	$(document).ready(function() {
 	    $('#fullpage').fullpage({
@@ -181,7 +181,7 @@ d3.select(self.frameElement).style("height", diameter + "px");
 	        menu: true,
 	        navigation: false,
 	        navigationPosition: 'left',
-	        navigationTooltips: ['firstSlide', 'secondSlide'],
+	        navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide'],
 	        slidesNavigation: true,
 	        slidesNavPosition: 'bottom',
 	        loopBottom: false,
@@ -192,7 +192,7 @@ d3.select(self.frameElement).style("height", diameter + "px");
 	        css3: true,
 	        paddingTop: '3em',
 	        paddingBottom: '10px',
-	        normalScrollElements: '#element1, .element2',
+	        // normalScrollElements: '#element1', '#element2', '#element3', '#element4',
 	        normalScrollElementTouchThreshold: 5,
 	        keyboardScrolling: true,
 	        touchSensitivity: 15,
