@@ -39,6 +39,10 @@ h1 {
 	display: block;
 }
 
+img {
+	width:150%;
+}
+
 @media only screen and (max-width: 600px) {
 
    h1 { font-size: 2rem; }
